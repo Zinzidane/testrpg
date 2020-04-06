@@ -13,8 +13,9 @@ GameObject:
   - component: {fileID: 1172905976}
   - component: {fileID: 1172905977}
   - component: {fileID: 7806228419900559246}
-  - component: {fileID: 1068189178904284538}
-  - component: {fileID: 114305301668622906}
+  - component: {fileID: 3125957438692005694}
+  - component: {fileID: 7346836368589747626}
+  - component: {fileID: 3307795589981818629}
   m_Layer: 0
   m_Name: Character
   m_TagString: Untagged
@@ -127,7 +128,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1068189178904284538
+--- !u!114 &3125957438692005694
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -136,13 +137,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 5401972681186859721}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab5d46aafbf03fc44aa703c40b7d98ea, type: 3}
+  m_Script: {fileID: 11500000, guid: 9ed0630d0160f35439dffb044c3ae874, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   weaponRange: 2
   timeBetweenAttacks: 1
   weaponDamage: 5
---- !u!114 &114305301668622906
+--- !u!114 &7346836368589747626
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -151,7 +152,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 5401972681186859721}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35dfad8c572bba544934f2f0835a3dcc, type: 3}
+  m_Script: {fileID: 11500000, guid: fb29fb4cdd4c5e14cb59027fb88888fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 20
+--- !u!114 &3307795589981818629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5401972681186859721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f681b2338b2fccc428a8e51d8f2adc5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
