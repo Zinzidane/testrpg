@@ -18,6 +18,7 @@ namespace RPG.Combat
             else
             {
                 GetComponent<Mover>().Cancel();
+                GetComponent<Animator>().SetTrigger("attack");
             }
         }
 
@@ -34,6 +35,12 @@ namespace RPG.Combat
         public void Cancel()
         {
             target = null;
+        }
+
+        // Animation Event
+        void Hit()
+        {
+
         }
     }
 }
