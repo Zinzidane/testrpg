@@ -14,7 +14,6 @@ namespace RPG.Core
             return isDead;
         }
 
-
         public void TakeDamage(float damage)
         {
             healthPoints = Mathf.Max(healthPoints - damage, 0);
@@ -41,12 +40,11 @@ namespace RPG.Core
         public void RestoreState(object state)
         {
             healthPoints = (float)state;
-            
+
             if (healthPoints == 0)
             {
                 Die();
             }
         }
-
     }
 }

@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 3125957438692005694}
   - component: {fileID: 7346836368589747626}
   - component: {fileID: 3307795589981818629}
-  - component: {fileID: 5658219548955485436}
+  - component: {fileID: 8067119963638078894}
   m_Layer: 0
   m_Name: Character
   m_TagString: Untagged
@@ -170,7 +170,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthPoints: 100
---- !u!114 &5658219548955485436
+--- !u!114 &8067119963638078894
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
