@@ -108,14 +108,25 @@ PrefabInstance:
       propertyPath: weaponDamage
       value: 10
       objectReference: {fileID: 0}
-    - target: {fileID: 1172905977, guid: 750e3c6876a501e42b5827ec7a3d24d1, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8067119963638078894, guid: 750e3c6876a501e42b5827ec7a3d24d1,
+    - target: {fileID: 3125957438692005694, guid: 750e3c6876a501e42b5827ec7a3d24d1,
+        type: 3}
+      propertyPath: handTransform
+      value: 
+      objectReference: {fileID: 5590448998645177948}
+    - target: {fileID: 3125957438692005694, guid: 750e3c6876a501e42b5827ec7a3d24d1,
+        type: 3}
+      propertyPath: weaponPrefab
+      value: 
+      objectReference: {fileID: 4959126472077090968, guid: 687cbb91f22f09f4e8daa37008d7b3c6,
+        type: 3}
+    - target: {fileID: 488557239800501724, guid: 750e3c6876a501e42b5827ec7a3d24d1,
         type: 3}
       propertyPath: uniqueIdentifier
       value: player
+      objectReference: {fileID: 0}
+    - target: {fileID: 1172905977, guid: 750e3c6876a501e42b5827ec7a3d24d1, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 750e3c6876a501e42b5827ec7a3d24d1, type: 3}
