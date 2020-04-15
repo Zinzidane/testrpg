@@ -3,12 +3,12 @@
 namespace RPG.Combat
 {
     [CreateAssetMenu(fileName = "Weapon", menuName = "Weapons/Make New Weapon", order = 0)]
-    public class Weapon : ScriptableObject {
+    public class Weapon : ScriptableObject
+    {
         [SerializeField] AnimatorOverrideController animatorOverride = null;
         [SerializeField] GameObject equippedPrefab = null;
-        [SerializeField] float weaponRange = 2f;
         [SerializeField] float weaponDamage = 5f;
-
+        [SerializeField] float weaponRange = 2f;
 
         public void Spawn(Transform handTransform, Animator animator)
         {
@@ -16,16 +16,10 @@ namespace RPG.Combat
             {
                 Instantiate(equippedPrefab, handTransform);
             }
-
             if (animatorOverride != null)
             {
-                animator.runtimeAnimatorController = animatorOverride;
+                animator.runtimeAnimatorController = animatorOverride; 
             }
-        }
-
-        public float GetRange()
-        {
-            return weaponRange;
         }
 
         public float GetDamage()
@@ -33,5 +27,9 @@ namespace RPG.Combat
             return weaponDamage;
         }
 
+        public float GetRange()
+        {
+            return weaponRange;
+        }
     }
 }
