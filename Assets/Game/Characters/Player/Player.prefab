@@ -14,6 +14,19 @@ CapsuleCollider:
   m_Height: 1.79
   m_Direction: 1
   m_Center: {x: 0, y: 0.82, z: 0}
+--- !u!114 &5586240725301679059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4902660786131331472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 475547a6988148b448ada2df96105003, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  experiencePoints: 0
 --- !u!114 &7122694563460434362
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -98,6 +111,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2495515040136399149, guid: 750e3c6876a501e42b5827ec7a3d24d1,
+        type: 3}
+      propertyPath: characterClass
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2495515040136399149, guid: 750e3c6876a501e42b5827ec7a3d24d1,
+        type: 3}
+      propertyPath: startingLevel
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2495515040136399149, guid: 750e3c6876a501e42b5827ec7a3d24d1,
+        type: 3}
+      propertyPath: levelUpParticleEffect
+      value: 
+      objectReference: {fileID: 3242380174161093250, guid: eb95d2cb3bbb2fe4db962566f8269867,
+        type: 3}
     - target: {fileID: 3307795589981818629, guid: 750e3c6876a501e42b5827ec7a3d24d1,
         type: 3}
       propertyPath: healthPoints
@@ -835,9 +864,9 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 5590448998644717528}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &5590448998645192732 stripped
+--- !u!4 &5590448998645171000 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 479172, guid: 679ff741e12a7e740819ede24a7000b7,
+  m_CorrespondingSourceObject: {fileID: 464096, guid: 679ff741e12a7e740819ede24a7000b7,
     type: 3}
   m_PrefabInstance: {fileID: 5590448998644717528}
   m_PrefabAsset: {fileID: 0}
@@ -847,9 +876,9 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 5590448998644717528}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &5590448998645171000 stripped
+--- !u!4 &5590448998645125590 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 464096, guid: 679ff741e12a7e740819ede24a7000b7,
+  m_CorrespondingSourceObject: {fileID: 411150, guid: 679ff741e12a7e740819ede24a7000b7,
     type: 3}
   m_PrefabInstance: {fileID: 5590448998644717528}
   m_PrefabAsset: {fileID: 0}
@@ -877,15 +906,15 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 5590448998644717528}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &5590448998645114638 stripped
+--- !u!4 &5590448998645192732 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 405718, guid: 679ff741e12a7e740819ede24a7000b7,
+  m_CorrespondingSourceObject: {fileID: 479172, guid: 679ff741e12a7e740819ede24a7000b7,
     type: 3}
   m_PrefabInstance: {fileID: 5590448998644717528}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &5590448998645125590 stripped
+--- !u!4 &5590448998645118610 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 411150, guid: 679ff741e12a7e740819ede24a7000b7,
+  m_CorrespondingSourceObject: {fileID: 401738, guid: 679ff741e12a7e740819ede24a7000b7,
     type: 3}
   m_PrefabInstance: {fileID: 5590448998644717528}
   m_PrefabAsset: {fileID: 0}
@@ -919,9 +948,9 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 5590448998644717528}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &5590448998645118610 stripped
+--- !u!4 &5590448998645114638 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 401738, guid: 679ff741e12a7e740819ede24a7000b7,
+  m_CorrespondingSourceObject: {fileID: 405718, guid: 679ff741e12a7e740819ede24a7000b7,
     type: 3}
   m_PrefabInstance: {fileID: 5590448998644717528}
   m_PrefabAsset: {fileID: 0}
